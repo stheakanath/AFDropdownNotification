@@ -114,9 +114,8 @@
         
         _imageView.frame = CGRectMake(kDropdownPadding, (notificationHeight / 2) - (kDropdownImageSize / 2) + (20 / 2), kDropdownImageSize, kDropdownImageSize);
         
-        if (_image) {
+        if (_image)
             [_notificationView addSubview:_imageView];
-        }
         
         _titleLabel.frame = CGRectMake(kDropdownPadding + kDropdownImageSize + kDropdownPadding, 20 + kDropdownPadding, textWidth, titleHeight);
         
